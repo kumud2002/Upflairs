@@ -20,7 +20,7 @@ while True:
             cv.rectangle(img_preview,pt1=(x1,y1),pt2=(x2,y2),color = (0,150,255),thickness=8)
         cv.imshow('Preview',img_preview[:,:,::-1])
         key = cv.waitKey(1)
-        if key == ord('c'):
+        if key == ord('c'):vbnm,
             break
 
 cv.destroyAllWindows()

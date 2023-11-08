@@ -8,7 +8,11 @@ from nltk.chat.util import Chat, reflections
 
 rules = [# in the form of tuple
         (r"hello",["hi", "hello"]),
-        (r"ac is not working" ,["Pankha chalao", "hummare yaha aesa he hota h"])]
+        (r"ac is not working" ,["Pankha chalao", "hummare yaha aesa he hota h"]),
+        (r"name",["Kumud Jain","My name is Kumud Jain"]),
+        (r"skills?",["Machine Learning","Python","c++"]),
+        (r"college",["Jaipur Engineering College and Research Centre","JECRC"]),
+        (r"field",["Information Techonology"])]
 
 my_chat_bot = Chat(rules)
 
